@@ -164,7 +164,7 @@ const PieChartTwo = ({ isDashboard = false }) => {
             {
               on: "hover",
               style: {
-                itemTextColor: "#000",
+                itemTextColor: theme.palette.mode == "dark" ? "#FFF" : "#000",
               },
             },
           ],

@@ -54,7 +54,8 @@ const BarChart = ({ isDashboard = false }) => {
       }
     }
     setMasterBarData(arr);
-    let sliced = isDashboard ? arr.slice(0, 8) : arr.slice(0, 8);
+    // less categories to show in dashboard since space is less
+    let sliced = isDashboard ? arr.slice(0, 6) : arr.slice(0, 8);
     setBarData(sliced);
   }, []);
   const handleClick = (si, ei) => {

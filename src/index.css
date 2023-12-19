@@ -16,7 +16,7 @@ body,
 }
 
 ::-webkit-scrollbar {
-  width: 10px;
+  width: 5px;
 }
 
 /* Track */
@@ -32,4 +32,8 @@ body,
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
+}
+/* full side bar */
+.pro-sidebar > .pro-sidebar-inner {
+  position: fixed !important;
 }

@@ -135,7 +135,7 @@ const PieChart = ({ isDashboard = false }) => {
           justify: false,
           translateX: 0,
           translateY: 56,
-          itemsSpacing: 0,
+          itemsSpacing: isDashboard ? -10 : 0,
           itemWidth: 100,
           itemHeight: 18,
           itemTextColor: "#999",
@@ -147,7 +147,7 @@ const PieChart = ({ isDashboard = false }) => {
             {
               on: "hover",
               style: {
-                itemTextColor: "#000",
+                itemTextColor: theme.palette.mode == "dark" ? "#FFF" : "#000",
               },
             },
           ],
