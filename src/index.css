@@ -34,6 +34,7 @@ body,
   background: #555;
 }
 /* full side bar */
-.pro-sidebar > .pro-sidebar-inner {
-  position: fixed !important;
+.pro-sidebar {
+  /* position: fixed !important; */
+  height: 130% !important;
 }

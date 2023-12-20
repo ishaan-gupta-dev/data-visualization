@@ -92,7 +92,8 @@ export const tokens = (mode) => ({
           // change for better visibility in light mode
           // 500: "#4cceac",
           500: "#0f6e55",
-          600: "#70d8bd",
+          // 600: "#70d8bd",
+          600: "#0f6e55",
           700: "#94e2cd",
           800: "#b7ebde",
           900: "#dbf5ee",

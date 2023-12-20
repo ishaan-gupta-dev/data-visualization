@@ -51,6 +51,11 @@ const PieChartThree = ({ isDashboard = false }) => {
       data={pieDataThree}
       color={{ scheme: "nivo" }}
       theme={{
+        tooltip: {
+          container: {
+            color: "#000",
+          },
+        },
         axis: {
           domain: {
             line: {

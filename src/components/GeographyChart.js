@@ -11,6 +11,11 @@ const GeographyChart = ({ isDashboard = false }) => {
     <ResponsiveChoropleth
       data={data}
       theme={{
+        tooltip: {
+          container: {
+            color: "#000",
+          },
+        },
         axis: {
           domain: {
             line: {

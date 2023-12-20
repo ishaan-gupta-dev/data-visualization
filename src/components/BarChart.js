@@ -76,6 +76,11 @@ const BarChart = ({ isDashboard = false }) => {
       <ResponsiveBar
         data={barData}
         theme={{
+          tooltip: {
+            container: {
+              color: "#000",
+            },
+          },
           axis: {
             domain: {
               line: {

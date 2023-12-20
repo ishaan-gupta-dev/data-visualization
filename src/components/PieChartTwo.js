@@ -77,6 +77,11 @@ const PieChartTwo = ({ isDashboard = false }) => {
       data={pieDataTwo}
       color={{ scheme: "nivo" }}
       theme={{
+        tooltip: {
+          container: {
+            color: "#000",
+          },
+        },
         axis: {
           domain: {
             line: {

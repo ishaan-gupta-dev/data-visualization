@@ -57,7 +57,9 @@ function App() {
       <ThemeProvider theme={theme}>
         <CssBaseline />
         <div className="app">
+          {/* <div style={{ height: "100%" }}> */}
           <Sidebar isSidebar={isSidebar} />
+          {/* </div> */}
           <main className="content">
             <Topbar setIsSidebar={setIsSidebar} />
             <Routes>

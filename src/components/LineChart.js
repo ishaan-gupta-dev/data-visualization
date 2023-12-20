@@ -11,6 +11,11 @@ const LineChart = ({ isCustomLineColors = false, isDashboard = false }) => {
     <ResponsiveLine
       data={data}
       theme={{
+        tooltip: {
+          container: {
+            color: "#000",
+          },
+        },
         axis: {
           domain: {
             line: {

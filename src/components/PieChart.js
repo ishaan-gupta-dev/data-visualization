@@ -60,6 +60,11 @@ const PieChart = ({ isDashboard = false }) => {
       data={pieDataOne}
       color={{ scheme: "nivo" }}
       theme={{
+        tooltip: {
+          container: {
+            color: "#000",
+          },
+        },
         axis: {
           domain: {
             line: {
